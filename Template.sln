@@ -11,13 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{A16A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestrutura", "Infraestrutura", "{945DBE6C-AA22-43CC-9790-6859306C6848}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Aplicacao", "Template.Aplicacao\Template.Aplicacao.csproj", "{FE0F3B34-BB4C-46A7-9012-08B4AB8F72C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Aplicacao", "Template.Aplicacao\Template.Aplicacao.csproj", "{FE0F3B34-BB4C-46A7-9012-08B4AB8F72C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Infraestrutura.Data", "Template.Infraestrutura.Data\Template.Infraestrutura.Data.csproj", "{0ECDD0DB-0A70-46A3-A594-CCF782D3D800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Infraestrutura.Data", "Template.Infraestrutura.Data\Template.Infraestrutura.Data.csproj", "{0ECDD0DB-0A70-46A3-A594-CCF782D3D800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Infraestrutura.Container", "Template.Infraestrutura.Container\Template.Infraestrutura.Container.csproj", "{077DEE0F-9998-4A29-9196-9EE40A327EBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Infraestrutura.Container", "Template.Infraestrutura.Container\Template.Infraestrutura.Container.csproj", "{077DEE0F-9998-4A29-9196-9EE40A327EBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Infraestrutura.Dominio", "Template.Infraestrutura.Dominio\Template.Infraestrutura.Dominio.csproj", "{8763D5E0-4E26-47B9-8F97-66504FF6309E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Infraestrutura.Dominio", "Template.Infraestrutura.Dominio\Template.Infraestrutura.Dominio.csproj", "{8763D5E0-4E26-47B9-8F97-66504FF6309E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C53C0DDA-E346-41D9-ABB3-4B938C36DFE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{411C1CC3-23A1-41AA-8103-F11C285DB742}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\bancos\DBFilmes.mdf = ..\..\bancos\DBFilmes.mdf
+		..\..\bancos\DBFilmes_log.ldf = ..\..\bancos\DBFilmes_log.ldf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "teste", "teste", "{2869C908-3D0D-4C3D-8B5B-BE5F6EE1C090}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +56,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{AD3B6C44-9E7C-4FE8-AB67-5DE7BF587443} = {C53C0DDA-E346-41D9-ABB3-4B938C36DFE2}
+		{3FDDC05E-F53B-4794-8457-BAB926CA8F33} = {C53C0DDA-E346-41D9-ABB3-4B938C36DFE2}
+		{A16AFA45-E613-4DE9-9979-750A3127A359} = {C53C0DDA-E346-41D9-ABB3-4B938C36DFE2}
+		{945DBE6C-AA22-43CC-9790-6859306C6848} = {C53C0DDA-E346-41D9-ABB3-4B938C36DFE2}
 		{FE0F3B34-BB4C-46A7-9012-08B4AB8F72C9} = {AD3B6C44-9E7C-4FE8-AB67-5DE7BF587443}
 		{0ECDD0DB-0A70-46A3-A594-CCF782D3D800} = {945DBE6C-AA22-43CC-9790-6859306C6848}
 		{077DEE0F-9998-4A29-9196-9EE40A327EBE} = {945DBE6C-AA22-43CC-9790-6859306C6848}
