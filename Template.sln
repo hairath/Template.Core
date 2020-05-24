@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{41
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "teste", "teste", "{2869C908-3D0D-4C3D-8B5B-BE5F6EE1C090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.API", "Template.API\Template.API.csproj", "{FA2C38C8-4CD4-4A29-8B74-5DDB1A8BFFDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{8763D5E0-4E26-47B9-8F97-66504FF6309E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8763D5E0-4E26-47B9-8F97-66504FF6309E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8763D5E0-4E26-47B9-8F97-66504FF6309E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA2C38C8-4CD4-4A29-8B74-5DDB1A8BFFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2C38C8-4CD4-4A29-8B74-5DDB1A8BFFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2C38C8-4CD4-4A29-8B74-5DDB1A8BFFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2C38C8-4CD4-4A29-8B74-5DDB1A8BFFDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{0ECDD0DB-0A70-46A3-A594-CCF782D3D800} = {945DBE6C-AA22-43CC-9790-6859306C6848}
 		{077DEE0F-9998-4A29-9196-9EE40A327EBE} = {945DBE6C-AA22-43CC-9790-6859306C6848}
 		{8763D5E0-4E26-47B9-8F97-66504FF6309E} = {A16AFA45-E613-4DE9-9979-750A3127A359}
+		{FA2C38C8-4CD4-4A29-8B74-5DDB1A8BFFDC} = {3FDDC05E-F53B-4794-8457-BAB926CA8F33}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C0CED86-6DC4-4E98-BB17-B26C3D4139B9}
